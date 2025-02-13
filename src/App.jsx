@@ -1,35 +1,18 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Global from "./styles/global";
 import Header from "./components/Header";
 import Resume from "./components/Resume";
 import Form from "./components/Form";
-
+import Grid from "./components/Grid";
 
 const App = () => {
-
     const [transactionsList, setTransactionsList] = useState(
         JSON.parse(localStorage.getItem("transactions")) || []
     );
-    const [income, setIncome] = useState(0);
-    const [expense, setExpense] = useState(0);
-    const [total, setTotal] = useState(0);
 
-    useEffect(() => {
-        const amounts = transactionsList.map(({ amount, expense }) => ({
-            amount: Number(amount),
-            expense
-        }));
-
-        const totalIncome = amounts.filter(({ expense }) => !expense)
-            .reduce((acc, { amount }) => acc + amount, 0).toFixed(2);
-        
-        const totalExpense = amounts.filter(({ expense }) => expense)
-            .reduce((acc, { amount }) => acc + amount, 0).toFixed(2);
-
-        setIncome(`R$ ${totalIncome}`);
-        setExpense(`R$ ${totalExpense}`);
-        setTotal(`${Number(totalIncome) < Number(totalExpense) ? "-" : ""}R$ ${Math.abs(totalIncome - totalExpense).toFixed(2)}`);
-    }, [transactionsList]);
+    const totalIncome = transactionsList.filter(t => !t.expense).reduce((acc, t) => acc + Number(t.amount), 0);
+    const totalExpense = transactionsList.filter(t => t.expense).reduce((acc, t) => acc + Number(t.amount), 0);
+    const total = totalIncome - totalExpense;
 
     const handleAdd = (transaction) => {
         const updatedTransactions = [...transactionsList, transaction];
@@ -37,16 +20,26 @@ const App = () => {
         localStorage.setItem("transactions", JSON.stringify(updatedTransactions));
     };
 
+    const handleDelete = (id) => {
+        const newArray = transactionsList.filter(transaction => transaction.id !== id);
+        setTransactionsList(newArray);
+        localStorage.setItem("transactions", JSON.stringify(newArray));
+    };
 
     return (
         <>
             <Global />
             <Header />
-            <Resume income={income} expense={expense} total={total} /> 
+            <Resume 
+                income={`R$ ${totalIncome.toFixed(2)}`} 
+                expense={`R$ ${totalExpense.toFixed(2)}`} 
+                total={`R$ ${total.toFixed(2)}`} 
+            />
             <Form handleAdd={handleAdd} />
+            <Grid itens={transactionsList} onDelete={handleDelete} />
         </>
-         
     );
 };
 
 export default App;
+
