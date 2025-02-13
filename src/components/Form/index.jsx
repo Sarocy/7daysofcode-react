@@ -3,9 +3,9 @@ import * as C from "./styles"
 
 const Form = ({handleAdd}) => {
     const [desc, setDesc] = useState("");
-    const [amount, SetAmount] = useState("");
+    const [amount, setAmount ] = useState("");
     const [date, setDate] = useState("");
-    const [isExpense, SetExpense] = useState(false);
+    const [isExpense, setExpense] = useState(false);
 
     const generateID = () => Math.round(Math.random()*1000);
 
@@ -29,7 +29,7 @@ const Form = ({handleAdd}) => {
         handleAdd(transaction);
 
         setDesc("");
-        SetAmount("");
+        setAmount ("");
         setDate("");
     };
 
@@ -56,7 +56,7 @@ const Form = ({handleAdd}) => {
                         <C.Input 
                         value={amount}
                         type='number'
-                        onChange={(e) => SetAmount(e.target.value)}
+                        onChange={(e) => setAmount (e.target.value)}
                         />
                     </C.InputContent>
                     
@@ -70,14 +70,14 @@ const Form = ({handleAdd}) => {
                         id='rIncome'
                         defaultChecked
                         name='group1'
-                        onChange={() => SetExpense(!isExpense)}
+                        onChange={() => setExpense(!isExpense)}
                     />
                     <C.Label htmlFor='rIncome'>Entrada</C.Label>
                     <C.Input 
                         type='radio'
                         id='rExpenses'
                         name='group1'
-                        onChange={() => SetExpense(!isExpense)}
+                        onChange={() => setExpense(!isExpense)}
                     />
                     <C.Label htmlFor='rExpenses'>Saída</C.Label>
                 </C.RadioGroup>
