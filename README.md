@@ -12,13 +12,13 @@ Durante o desafio, você aprenderá conceitos fundamentais de React, como compon
 
 Cada branch deste repositório contém o código para um dia específico do desafio:
 
-- **day-01**: Configuração inicial do projeto e criação do componente de cabeçalho.
-- **day-02**: Criação do componente de resumos financeiros (entradas, saídas e saldo).
-- **day-03**: Desenvolvimento do componente de formulário para adicionar novas transações.
-- **day-04**: Exibição da lista de transações registradas.
-- **day-05**: Implementação do localStorage para salvar as transações.
-- **day-06**: Integração da biblioteca Recharts e criação de gráficos interativos.
-- **day-07**: Implementação do modo claro/escuro com ThemeProvider e ajustes finais.
+- **day-01**: Configurações Iniciais do Projeto
+- **day-02**: Componentizando a Interface
+- **day-03**: Formulário e Captura de Dados
+- **day-04**: Integração dos Componentes e Implementação da Lógica de Cálculo
+- **day-05**: Integração dos Componentes e Implementação da Lógica de Cálculo
+- **day-06**: Gráficos interativos e análise visual dos dados
+- **day-07**: Implementando Modo Dark/Light
 
 ## 📚 Tecnologias Utilizadas
 
@@ -49,13 +49,15 @@ Cada branch deste repositório contém o código para um dia específico do desa
    npm run dev
    ```
 
-5. Acesse o projeto no navegador em: `http://localhost:3000`.
+## 📊 Demonstração:
 
-## 📊 Demonstração
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm1jYWtsdWFrbjlwNmRvc2R3NjhuYXBydzFjdmpwN2JwYXEwd3pnOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u8k4WpkJNHhvAT9Ihj/giphy.gif)
 
+----
 
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJ6YnR1eDd0MTcwbTMzOGZzbWNzbTA0Y3FmbTdwN240N3FlcXFwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TdmKTedWApNF85hpCb/giphy.gif)
 
-## 📈 Benefícios do Projeto
+## 📈 Benefícios do Projeto:
 - Aprendizado prático com React e bibliotecas populares.
 - Entendimento sobre manipulação de estado e componentização.
 - Experiência com localStorage para persistência de dados.
