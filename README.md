@@ -1,8 +1,19 @@
-# React + Vite
+# 7 Days of Code: React 💻💸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 💻 Dia 04: Integração dos Componentes e Implementação da Lógica de Cálculo
 
-Currently, two official plugins are available:
+### 🚀 O Desafio de Hoje
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+No quinto dia do desafio, o foco foi aprimorar o controle da lista de transações financeiras, adicionando a funcionalidade de exclusão de registros e melhorando a cálculo dinâmico dos valores de entrada, saída e total. Além disso, foi introduzido o componente Grid para exibir as transações em formato de tabela.
+
+
+### 1. No geral: 
+
+- Refatoramos a lógica de cálculo de receita (income), despesa (expense) e saldo total (total) diretamente na função principal do componente App.
+
+- Implementamos a função handleDelete para permitir a remoção de transações pela sua id.
+
+- Atualizamos o armazenamento local (localStorage) sempre que uma transação é removida ou adicionada.
+
+- Criamos o componente Grid para exibir as transações e incluir um botão para excluir cada uma delas.
+
