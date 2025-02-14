@@ -9,10 +9,15 @@ const Global = createGlobalStyle`
 
     body {
         font-family: 'Poppins', sans-serif;
-        background-color: #C2C6C9;
+        background-color: ${({ theme }) => theme.backgroundColor};
+        transition: background-color 0.3s ease;
     }
 `;
 
+const themes = {
+    light: { backgroundColor: "#C2C6C9", isDark: false },
+    dark: { backgroundColor: "#0F1214", isDark: true }
+};
 
+export { Global, themes };
 
-export default Global;

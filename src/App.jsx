@@ -1,12 +1,14 @@
 import React, { useState } from "react";
-import Global from "./styles/global";
 import Header from "./components/Header";
 import Resume from "./components/Resume";
 import Form from "./components/Form";
 import Grid from "./components/Grid";
 import Charts from "./components/Charts";
+import { ThemeProvider } from "styled-components";
+import { Global, themes } from "./styles/global";
 
 const App = () => {
+    const [isDarkMode, setIsDarkMode] = useState(false);
     const [transactionsList, setTransactionsList] = useState(
         JSON.parse(localStorage.getItem("transactions")) || []
     );
@@ -28,9 +30,9 @@ const App = () => {
     };
 
     return (
-        <>
+        <ThemeProvider theme={isDarkMode ? themes.dark : themes.light}>
             <Global />
-            <Header />
+            <Header isDarkMode={isDarkMode} toggleTheme={() => setIsDarkMode(!isDarkMode)}/>
             <Resume 
                 income={`R$ ${totalIncome.toFixed(2)}`} 
                 expense={`R$ ${totalExpense.toFixed(2)}`} 
@@ -39,7 +41,7 @@ const App = () => {
             <Form handleAdd={handleAdd} />
             <Grid itens={transactionsList} onDelete={handleDelete} />
             <Charts transactionsList={transactionsList} />
-        </>
+        </ThemeProvider>
     );
 };
 

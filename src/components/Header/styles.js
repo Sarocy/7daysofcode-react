@@ -35,4 +35,52 @@ export const Title = styled.h1`
     }
 `;
 
+export const ThemeButton = styled.button`
+    background: ${({ theme }) => (theme.backgroundColor === "#C2C6C9" ? "#fff" : "#3E4B4B")};
+    border: none;
+    border-radius: 20px;
+    gap: 10px; 
+    width: 80px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: absolute;
+    bottom: 32vh;
+    left: 85px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 
+    .circle {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: ${({ theme }) => (theme.backgroundColor === "#C2C6C9" ? "#000000" : "#FFFDFD")};
+    }
+
+    svg {
+        color: ${({ theme }) => (theme.backgroundColor === "#C2C6C9" ? "#000000" : "#FFFDFD")};
+        transition: color 0.3s ease;
+    }
+
+  
+
+    @media (max-width: 768px) {
+        left: 20px;
+        bottom: 25vh; 
+        width: 50px;
+        height: 25px;
+
+        .circle {
+            width: 15px;
+            height: 15px;
+        }
+
+        .icon {
+            width: 15px;
+            height: 15px;
+        }
+        
+
+    }
+`;
