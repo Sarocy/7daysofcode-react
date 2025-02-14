@@ -1,8 +1,15 @@
-# React + Vite
+# 7 Days of Code: React 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 💻 Dia 01: Configurações Iniciais do Projeto
 
-Currently, two official plugins are available:
+### 🚀 O Desafio de Hoje
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Nesse primeiro dia, configuramos o ambiente de desenvolvimento e preparamos a base do nosso **Gerenciador de Finanças Pessoais**. O objetivo foi garantir que tudo estivesse pronto para os próximos dias de desenvolvimento.
+
+1. **Configuramos o Ambiente de Trabalho**, instalando o [Visual Studio Code](https://code.visualstudio.com/) e garantindo que o [Node.js](https://nodejs.org/) e o npm estivessem instalados.
+2. **Criamos o Projeto React** utilizando o Vite, gerando a estrutura inicial com o comando:
+   ```bash
+   npm create vite@latest 7days --template react
+   cd 7days
+   npm install
+   npm run dev
