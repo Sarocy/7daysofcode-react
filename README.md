@@ -1,8 +1,13 @@
-# React + Vite
+# 7 Days of Code: React 💻💸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 💻 Dia 06: Criação de gráficos
 
-Currently, two official plugins are available:
+### 🚀 O Desafio de Hoje
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+No sexto dia do desafio, focamos na implementação de gráficos interativos para visualizar as receitas e despesas do usuário, além de otimizar a exibição das informações financeiras. Buscamos integrar gráficos interativos usando a biblioteca Recharts para representar visualmente as transações, melhorar a usabilidade da interface, permitindo a visualização de receitas, despesas e evolução do saldo, além de tornar o tamanho dos gráficos responsivo, adaptando-se a diferentes tamanhos de tela.
+
+### 1. Criamos o componente Charts que exibe três gráficos utilizando a biblioteca Recharts:
+
+- Gráfico de Pizza (PieChart): representando as despesas por categoria, mostrando a porcentagem de cada uma.
+- Gráfico de Linha (LineChart): exibindo a evolução do saldo ao longo do tempo, considerando receitas e despesas.
+- Gráfico de Barras (BarChart): representando as despesas por categoria, mostrando o valor absoluto gasto em cada uma.
