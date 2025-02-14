@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Resume from "./components/Resume";
 import Form from "./components/Form";
 import Grid from "./components/Grid";
+import Charts from "./components/Charts";
 
 const App = () => {
     const [transactionsList, setTransactionsList] = useState(
@@ -37,6 +38,7 @@ const App = () => {
             />
             <Form handleAdd={handleAdd} />
             <Grid itens={transactionsList} onDelete={handleDelete} />
+            <Charts transactionsList={transactionsList} />
         </>
     );
 };
