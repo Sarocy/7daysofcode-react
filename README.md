@@ -6,7 +6,8 @@
 
 O projeto **"Gerenciador de Finanças Pessoais"** é uma aplicação desenvolvida ao longo de sete dias com o objetivo de criar uma ferramenta prática e intuitiva para organizar suas receitas e despesas. Além de ser um ótimo projeto para colocar no portfólio, ele ajuda a ter um controle melhor sobre o saldo e a visualizar os dados financeiros de forma clara e interativa.
 
-Durante o desafio, você aprenderá conceitos fundamentais de React, como componentização, gestão de estado, estilização com Styled Components, armazenamento de dados com localStorage e criação de gráficos com Recharts.
+Durante o desafio, você aprenderá conceitos fundamentais de React e bibliotecas populares, como componentização, gestão de estado, estilização com Styled Components, armazenamento de dados com localStorage e criação de gráficos interativos com Recharts para melhor visualização de dados.
+
 
 ## 🗓 Estrutura
 
@@ -28,7 +29,7 @@ Cada branch deste repositório contém o código para um dia específico do desa
 
 1. Clone o repositório na sua máquina local:
    ```bash
-   git clone https://github.com/seu-usuario/7days-of-code-financas.git
+   git clone https://github.com/Sarocy/7daysofcode-react.git
    ```
 
 2. Troque para a branch desejada:
@@ -57,11 +58,7 @@ Cada branch deste repositório contém o código para um dia específico do desa
 
 ![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJ6YnR1eDd0MTcwbTMzOGZzbWNzbTA0Y3FmbTdwN240N3FlcXFwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TdmKTedWApNF85hpCb/giphy.gif)
 
-## 📈 Benefícios do Projeto:
-- Aprendizado prático com React e bibliotecas populares.
-- Entendimento sobre manipulação de estado e componentização.
-- Experiência com localStorage para persistência de dados.
-- Implementação de gráficos interativos para melhor visualização de dados.
-- Prática de criação de interfaces modernas com Styled Components.
+
+
 
 
