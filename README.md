@@ -21,5 +21,5 @@ No segundo dia do nosso desafio, criamos componentes fundamentais da nossa aplic
 
 **4. Aplicamos estilização com Styled-components**, de forma que cada componente recebeu seu próprio arquivo de estilo usando `styled-components`, estilos `responsivos`, que se ajustam a diferentes tamanhos de tela!
 
-**5. Renderizamos tudo no App.jsx **, importando e exibindo os componentes `Header` e `Resume` na tela, além de criarmos um **estilo global** para garantir que tudo fique alinhado com o design do Figma.
+**5. Renderizamos tudo no App.jsx**, importando e exibindo os componentes `Header` e `Resume` na tela, além de criarmos um **estilo global** para garantir que tudo fique alinhado com o design do Figma.
 
