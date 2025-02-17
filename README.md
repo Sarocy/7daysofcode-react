@@ -16,7 +16,7 @@ Com a responsabilidade de receber as informações de cada movimentação financ
 - Definir se é `Entrada` ou `Saída`.
 
 
-### 2. Estados e Funções
+### 2. Estados e funções
 
 Utilizamos o `useState` para armazenar os dados digitados nos campos:
 
@@ -32,7 +32,7 @@ Criamos também a função `handleSave` que:
 - Chama a função `handleAdd` (passada por props) para adicionar a transação na lista.
 - Limpa os campos após a inserção.
 
-### 3. Estilizamos o Formulário com **styled-components** com um layout responsivo,
+### 3. Estilizamos o formulário com **styled-components** com um layout responsivo,
 
 ### 4. Renderizamos no App.jsx
 
