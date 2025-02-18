@@ -14,10 +14,10 @@ Durante o desafio, você aprenderá conceitos fundamentais de React e biblioteca
 Cada branch deste repositório contém o código para um dia específico do desafio:
 
 - **day-01**: Configurações iniciais do projeto
-- **day-02**: Componentizando a interface
+- **day-02**: Componentes Header e Resume
 - **day-03**: Formulário e captura de dados
 - **day-04**: Integração dos componentes e implementação da lógica de cálculo
-- **day-05**: Integração dos componentes e implementação da lógica de cálculo
+- **day-05**: Tabela de visualização de dados e otimização de cálculos
 - **day-06**: Gráficos interativos e análise visual dos dados
 - **day-07**: Implementando modo Dark/Light
 
