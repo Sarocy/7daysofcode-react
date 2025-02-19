@@ -1,6 +1,6 @@
 # 7 Days of Code: React 🚀
 
-## 💻 Dia 01: Configurações Iniciais do Projeto
+## 💻 Day 01: Configurações Iniciais do Projeto
 
 ### 🚀 O Desafio de Hoje
 
