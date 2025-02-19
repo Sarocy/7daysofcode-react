@@ -1,6 +1,6 @@
 # 7 Days of Code: React 💻💸
 
-## 💻 Dia 02: Componentes Header e Resume
+## 💻 Day 02: Componentes Header e Resume
 
 ### 🚀 O Desafio de Hoje
 
