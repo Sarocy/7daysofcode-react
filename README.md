@@ -1,6 +1,6 @@
 # 7 Days of Code: React 💻💸
 
-## 💻 Dia 06: Gráficos interativos e análise visual dos dados
+## 💻 Day 06: Gráficos interativos e análise visual dos dados
 
 ### 🚀 O Desafio de Hoje
 
