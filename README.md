@@ -1,6 +1,6 @@
 # 7 Days of Code: React 💻💸
 
-## 💻 Dia 03: Formulário e Captura de Dados
+## 💻 Day 03: Formulário e Captura de Dados
 
 ### 🚀 O Desafio de Hoje
 
