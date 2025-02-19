@@ -1,6 +1,6 @@
 # 7 Days of Code: React 💻💸
 
-## 💻 Dia 07: Implementando Modo Dark/Light
+## 💻 Day 07: Implementando Modo Dark/Light
 
 ### 🚀 O Desafio de Hoje
 
