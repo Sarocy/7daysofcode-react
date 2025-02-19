@@ -2,6 +2,15 @@
 
 **Gerenciador de Finanças Pessoais** - Projeto do 7 Days of Code com React, na plataforma da Alura.
 
+## 📊 Demonstração:
+
+![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm1jYWtsdWFrbjlwNmRvc2R3NjhuYXBydzFjdmpwN2JwYXEwd3pnOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u8k4WpkJNHhvAT9Ihj/giphy.gif)
+
+----
+
+![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJ6YnR1eDd0MTcwbTMzOGZzbWNzbTA0Y3FmbTdwN240N3FlcXFwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TdmKTedWApNF85hpCb/giphy.gif)
+
+
 ## 📝 Descrição
 
 O projeto **"Gerenciador de Finanças Pessoais"** é uma aplicação desenvolvida ao longo de sete dias com o objetivo de criar uma ferramenta prática e intuitiva para organizar suas receitas e despesas. Além de ser um ótimo projeto para colocar no portfólio, ele ajuda a ter um controle melhor sobre o saldo e a visualizar os dados financeiros de forma clara e interativa.
@@ -49,15 +58,6 @@ Cada branch deste repositório contém o código para um dia específico do desa
    ```bash
    npm run dev
    ```
-
-## 📊 Demonstração:
-
-![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNm1jYWtsdWFrbjlwNmRvc2R3NjhuYXBydzFjdmpwN2JwYXEwd3pnOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/u8k4WpkJNHhvAT9Ihj/giphy.gif)
-
-----
-
-![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzJ6YnR1eDd0MTcwbTMzOGZzbWNzbTA0Y3FmbTdwN240N3FlcXFwZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TdmKTedWApNF85hpCb/giphy.gif)
-
 
 
 
