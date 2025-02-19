@@ -12,6 +12,13 @@ Instalando o [Visual Studio Code](https://code.visualstudio.com/) e garantindo q
 Gerando a estrutura inicial com o comando:
    ```bash
    npm create vite@latest 7days --template react
+   ```
+   ```bash
    cd 7days
+   ```
+   ```bash
    npm install
+   ```
+   ```bash
    npm run dev
+   ```
